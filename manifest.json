@@ -3,8 +3,8 @@
   "updated": "2026-05-27",
   "description": "Gold examples manifest for chelinh-studio-v2.jsx — parsed from Style_Thinking_Patterns_v13.md. Maps 61 patterns across 10 styles to reference image URLs for --sref + ready-to-use prompts with --no negatives.",
   "source_doc": "Style_Thinking_Patterns_v13.docx",
-  "repo": "https://github.com/CHANGE_ME/chelinh-gold-examples",
-  "url_pattern": "https://raw.githubusercontent.com/CHANGE_ME/chelinh-gold-examples/main/gold_frames/{style_folder}/{filename}",
+  "repo": "https://github.com/chelinhstudio/chelinh-gold-examples",
+  "url_pattern": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/{style_folder}/{filename}",
   "prompt_formula": {
     "structure": "[Medium/Format] + [Subject/Action] + [Positioning/Negative Space] + [Environment] + [Lighting] + [Color Palette] + [Texture] + [--no negatives]",
     "parts": [
@@ -30,7 +30,7 @@
         {
           "id": "style01_mannequin",
           "name": "mannequin",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/mannequin_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/mannequin_preview.jpg",
           "image_filename": "mannequin_preview.jpg",
           "source_video": "Wooden Leg",
           "timestamp": "01:15",
@@ -41,7 +41,7 @@
         {
           "id": "style01_archival_reveal",
           "name": "archival_reveal",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/archival_reveal_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/archival_reveal_preview.jpg",
           "image_filename": "archival_reveal_preview.jpg",
           "source_video": "Wooden Leg",
           "timestamp": "00:35",
@@ -52,7 +52,7 @@
         {
           "id": "style01_document",
           "name": "document",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/document_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/document_preview.jpg",
           "image_filename": "document_preview.jpg",
           "source_video": "Wooden Leg",
           "timestamp": "06:15",
@@ -63,7 +63,7 @@
         {
           "id": "style01_locationcard",
           "name": "locationcard",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/locationcard_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/locationcard_preview.jpg",
           "image_filename": "locationcard_preview.jpg",
           "source_video": "Alvin York",
           "timestamp": "02:11",
@@ -74,7 +74,7 @@
         {
           "id": "style01_blueprint",
           "name": "blueprint",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/blueprint_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/blueprint_preview.jpg",
           "image_filename": "blueprint_preview.jpg",
           "source_video": "Alvin York",
           "timestamp": "05:00",
@@ -85,7 +85,7 @@
         {
           "id": "style01_date_stamp_pill",
           "name": "date_stamp_pill",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/date_stamp_pill_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/date_stamp_pill_preview.jpg",
           "image_filename": "date_stamp_pill_preview.jpg",
           "source_video": "Berlin Balloon",
           "timestamp": "05:15",
@@ -96,7 +96,7 @@
         {
           "id": "style01_engineering_diagram",
           "name": "engineering_diagram",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/engineering_diagram_preview.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_01/engineering_diagram_preview.jpg",
           "image_filename": "engineering_diagram_preview.jpg",
           "source_video": "Berlin Balloon",
           "timestamp": "15:40",
@@ -117,7 +117,7 @@
         {
           "id": "style02_letterbox_macro_stat",
           "name": "letterbox_macro_stat",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/letterbox_macro_stat.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_02/letterbox_macro_stat.jpg",
           "image_filename": "letterbox_macro_stat.jpg",
           "source_video": "Rat Race",
           "timestamp": "00:40",
@@ -128,7 +128,7 @@
         {
           "id": "style02_document_annotation",
           "name": "document_annotation",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/document_annotation.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_02/document_annotation.jpg",
           "image_filename": "document_annotation.jpg",
           "source_video": "Rat Race",
           "timestamp": "00:52",
@@ -139,7 +139,7 @@
         {
           "id": "style02_definition_card",
           "name": "definition_card",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/definition_card.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_02/definition_card.jpg",
           "image_filename": "definition_card.jpg",
           "source_video": "Rat Race",
           "timestamp": "08:54",
@@ -150,7 +150,7 @@
         {
           "id": "style02_host_moody",
           "name": "host_moody",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/host_moody.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_02/host_moody.jpg",
           "image_filename": "host_moody.jpg",
           "source_video": "Rat Race",
           "timestamp": "11:19",
@@ -161,7 +161,7 @@
         {
           "id": "style02_crt_archival",
           "name": "crt_archival",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/crt_archival.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_02/crt_archival.jpg",
           "image_filename": "crt_archival.jpg",
           "source_video": "Megachurches",
           "timestamp": "15:15",
@@ -183,7 +183,7 @@
         {
           "id": "style03_scale_model_diorama",
           "name": "scale_model_diorama",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/scale_model_diorama.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_03/scale_model_diorama.jpg",
           "image_filename": "scale_model_diorama.jpg",
           "source_video": "JFK",
           "timestamp": "00:15",
@@ -194,7 +194,7 @@
         {
           "id": "style03_torn_paper_dossier",
           "name": "torn_paper_dossier",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/torn_paper_dossier.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_03/torn_paper_dossier.jpg",
           "image_filename": "torn_paper_dossier.jpg",
           "source_video": "JFK",
           "timestamp": "02:10",
@@ -205,7 +205,7 @@
         {
           "id": "style03_red_silhouette",
           "name": "red_silhouette",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/red_silhouette.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_03/red_silhouette.jpg",
           "image_filename": "red_silhouette.jpg",
           "source_video": "JFK",
           "timestamp": "15:15",
@@ -216,7 +216,7 @@
         {
           "id": "style03_monospace_testimony",
           "name": "monospace_testimony",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/monospace_testimony.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_03/monospace_testimony.jpg",
           "image_filename": "monospace_testimony.jpg",
           "source_video": "JFK",
           "timestamp": "24:15",
@@ -227,7 +227,7 @@
         {
           "id": "style03_timeline_ruler",
           "name": "timeline_ruler",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/timeline_ruler.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_03/timeline_ruler.jpg",
           "image_filename": "timeline_ruler.jpg",
           "source_video": "Ripper",
           "timestamp": "37:30",
@@ -248,7 +248,7 @@
         {
           "id": "style04_article_citation_headline",
           "name": "article_citation_headline",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__article_citation_headline__13-50__michigan.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_04/style_04_vox_explainer__article_citation_headline__13-50__michigan.jpg",
           "image_filename": "style_04_vox_explainer__article_citation_headline__13-50__michigan.jpg",
           "source_video": "michigan",
           "timestamp": "13:50",
@@ -259,7 +259,7 @@
         {
           "id": "style04_chapter_divider_numbered",
           "name": "chapter_divider_numbered",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__chapter_divider_numbered__04-53__michigan.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_04/style_04_vox_explainer__chapter_divider_numbered__04-53__michigan.jpg",
           "image_filename": "style_04_vox_explainer__chapter_divider_numbered__04-53__michigan.jpg",
           "source_video": "michigan",
           "timestamp": "04:53",
@@ -270,7 +270,7 @@
         {
           "id": "style04_chart_animated_reveal",
           "name": "chart_animated_reveal",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__chart_animated_reveal__02-56__house.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_04/style_04_vox_explainer__chart_animated_reveal__02-56__house.jpg",
           "image_filename": "style_04_vox_explainer__chart_animated_reveal__02-56__house.jpg",
           "source_video": "house",
           "timestamp": "02:56",
@@ -281,7 +281,7 @@
         {
           "id": "style04_data_viz_grid_cells",
           "name": "data_viz_grid_cells",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__data_viz_grid_cells__01-46__michigan.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_04/style_04_vox_explainer__data_viz_grid_cells__01-46__michigan.jpg",
           "image_filename": "style_04_vox_explainer__data_viz_grid_cells__01-46__michigan.jpg",
           "source_video": "michigan",
           "timestamp": "01:46",
@@ -292,7 +292,7 @@
         {
           "id": "style04_map_highlighter",
           "name": "map_highlighter",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__map_highlighter__03-20__michigan.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_04/style_04_vox_explainer__map_highlighter__03-20__michigan.jpg",
           "image_filename": "style_04_vox_explainer__map_highlighter__03-20__michigan.jpg",
           "source_video": "michigan",
           "timestamp": "03:20",
@@ -303,7 +303,7 @@
         {
           "id": "style04_mono_flat_illustration",
           "name": "mono_flat_illustration",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__mono_flat_illustration__00-27__house.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_04/style_04_vox_explainer__mono_flat_illustration__00-27__house.jpg",
           "image_filename": "style_04_vox_explainer__mono_flat_illustration__00-27__house.jpg",
           "source_video": "house",
           "timestamp": "00:27",
@@ -324,7 +324,7 @@
         {
           "id": "style05_character_pedestal_comparison",
           "name": "character_pedestal_comparison",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__character_pedestal_comparison__01-11__inequality.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_05/style_05_ted_cartoon_outline__character_pedestal_comparison__01-11__inequality.jpg",
           "image_filename": "style_05_ted_cartoon_outline__character_pedestal_comparison__01-11__inequality.jpg",
           "source_video": "inequality",
           "timestamp": "01:11",
@@ -335,7 +335,7 @@
         {
           "id": "style05_country_flag_map_card_grid",
           "name": "country_flag_map_card_grid",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__country_flag_map_card_grid__04-04__inequality.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_05/style_05_ted_cartoon_outline__country_flag_map_card_grid__04-04__inequality.jpg",
           "image_filename": "style_05_ted_cartoon_outline__country_flag_map_card_grid__04-04__inequality.jpg",
           "source_video": "inequality",
           "timestamp": "04:04",
@@ -346,7 +346,7 @@
         {
           "id": "style05_notebook_paper_chart",
           "name": "notebook_paper_chart",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__notebook_paper_chart__00-52__inequality.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_05/style_05_ted_cartoon_outline__notebook_paper_chart__00-52__inequality.jpg",
           "image_filename": "style_05_ted_cartoon_outline__notebook_paper_chart__00-52__inequality.jpg",
           "source_video": "inequality",
           "timestamp": "00:52",
@@ -357,7 +357,7 @@
         {
           "id": "style05_outline_flat_character_scene",
           "name": "outline_flat_character_scene",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__outline_flat_character_scene__01-47__inequality.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_05/style_05_ted_cartoon_outline__outline_flat_character_scene__01-47__inequality.jpg",
           "image_filename": "style_05_ted_cartoon_outline__outline_flat_character_scene__01-47__inequality.jpg",
           "source_video": "inequality",
           "timestamp": "01:47",
@@ -368,7 +368,7 @@
         {
           "id": "style05_oversized_symbol_stage",
           "name": "oversized_symbol_stage",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__oversized_symbol_stage__02-43__inequality.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_05/style_05_ted_cartoon_outline__oversized_symbol_stage__02-43__inequality.jpg",
           "image_filename": "style_05_ted_cartoon_outline__oversized_symbol_stage__02-43__inequality.jpg",
           "source_video": "inequality",
           "timestamp": "02:43",
@@ -379,7 +379,7 @@
         {
           "id": "style05_paired_pyramid_composition",
           "name": "paired_pyramid_composition",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__paired_pyramid_composition__00-21__inequality.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_05/style_05_ted_cartoon_outline__paired_pyramid_composition__00-21__inequality.jpg",
           "image_filename": "style_05_ted_cartoon_outline__paired_pyramid_composition__00-21__inequality.jpg",
           "source_video": "inequality",
           "timestamp": "00:21",
@@ -400,7 +400,7 @@
         {
           "id": "style06_sketchy_close_up_metaphor_object",
           "name": "sketchy_close_up_metaphor_object",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_close_up_metaphor_object__04-14__economy.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_close_up_metaphor_object__04-14__economy.jpg",
           "image_filename": "style_06_ted_sketchy_limited__sketchy_close_up_metaphor_object__04-14__economy.jpg",
           "source_video": "economy",
           "timestamp": "04:14",
@@ -411,7 +411,7 @@
         {
           "id": "style06_sketchy_landscape_nature_accent",
           "name": "sketchy_landscape_nature_accent",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_landscape_nature_accent__04-44__economy.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_landscape_nature_accent__04-44__economy.jpg",
           "image_filename": "style_06_ted_sketchy_limited__sketchy_landscape_nature_accent__04-44__economy.jpg",
           "source_video": "economy",
           "timestamp": "04:44",
@@ -422,7 +422,7 @@
         {
           "id": "style06_sketchy_multi_character_workplace_scene",
           "name": "sketchy_multi_character_workplace_scene",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_multi_character_workplace_scene__03-14__economy.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_multi_character_workplace_scene__03-14__economy.jpg",
           "image_filename": "style_06_ted_sketchy_limited__sketchy_multi_character_workplace_scene__03-14__economy.jpg",
           "source_video": "economy",
           "timestamp": "03:14",
@@ -433,7 +433,7 @@
         {
           "id": "style06_sketchy_object_as_chart_element",
           "name": "sketchy_object_as_chart_element",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_object_as_chart_element__04-04__economy.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_object_as_chart_element__04-04__economy.jpg",
           "image_filename": "style_06_ted_sketchy_limited__sketchy_object_as_chart_element__04-04__economy.jpg",
           "source_video": "economy",
           "timestamp": "04:04",
@@ -454,7 +454,7 @@
         {
           "id": "style07_allegorical_object_economic_metaphor",
           "name": "allegorical_object_economic_metaphor",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__allegorical_object_economic_metaphor__02-43__stock.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_07/style_07_ted_cartoony_watercolor__allegorical_object_economic_metaphor__02-43__stock.jpg",
           "image_filename": "style_07_ted_cartoony_watercolor__allegorical_object_economic_metaphor__02-43__stock.jpg",
           "source_video": "stock",
           "timestamp": "02:43",
@@ -465,7 +465,7 @@
         {
           "id": "style07_character_riding_market_rise_arrow",
           "name": "character_riding_market_rise_arrow",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__character_riding_market_rise_arrow__03-34__stock.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_07/style_07_ted_cartoony_watercolor__character_riding_market_rise_arrow__03-34__stock.jpg",
           "image_filename": "style_07_ted_cartoony_watercolor__character_riding_market_rise_arrow__03-34__stock.jpg",
           "source_video": "stock",
           "timestamp": "03:34",
@@ -476,7 +476,7 @@
         {
           "id": "style07_character_watercolor_scene",
           "name": "character_watercolor_scene",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__character_watercolor_scene__02-04__stock.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_07/style_07_ted_cartoony_watercolor__character_watercolor_scene__02-04__stock.jpg",
           "image_filename": "style_07_ted_cartoony_watercolor__character_watercolor_scene__02-04__stock.jpg",
           "source_video": "stock",
           "timestamp": "02:04",
@@ -487,7 +487,7 @@
         {
           "id": "style07_multi_character_historical_narrative_scene",
           "name": "multi_character_historical_narrative_scene",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__multi_character_historical_narrative_scene__00-43__stock.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_07/style_07_ted_cartoony_watercolor__multi_character_historical_narrative_scene__00-43__stock.jpg",
           "image_filename": "style_07_ted_cartoony_watercolor__multi_character_historical_narrative_scene__00-43__stock.jpg",
           "source_video": "stock",
           "timestamp": "00:43",
@@ -498,7 +498,7 @@
         {
           "id": "style07_stock_ticker_grid_market_display",
           "name": "stock_ticker_grid_market_display",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__stock_ticker_grid_market_display__01-54__stock.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_07/style_07_ted_cartoony_watercolor__stock_ticker_grid_market_display__01-54__stock.jpg",
           "image_filename": "style_07_ted_cartoony_watercolor__stock_ticker_grid_market_display__01-54__stock.jpg",
           "source_video": "stock",
           "timestamp": "01:54",
@@ -509,7 +509,7 @@
         {
           "id": "style07_vintage_historical_artifact_scene",
           "name": "vintage_historical_artifact_scene",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__vintage_historical_artifact_scene__00-37__stock.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_07/style_07_ted_cartoony_watercolor__vintage_historical_artifact_scene__00-37__stock.jpg",
           "image_filename": "style_07_ted_cartoony_watercolor__vintage_historical_artifact_scene__00-37__stock.jpg",
           "source_video": "stock",
           "timestamp": "00:37",
@@ -530,7 +530,7 @@
         {
           "id": "style08_anthropomorphic_government_metaphor",
           "name": "anthropomorphic_government_metaphor",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__anthropomorphic_government_metaphor__02-11__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__anthropomorphic_government_metaphor__02-11__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__anthropomorphic_government_metaphor__02-11__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "02:11",
@@ -541,7 +541,7 @@
         {
           "id": "style08_concept_map_multi_label_assembly",
           "name": "concept_map_multi_label_assembly",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__concept_map_multi_label_assembly__04-04__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__concept_map_multi_label_assembly__04-04__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__concept_map_multi_label_assembly__04-04__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "04:04",
@@ -552,7 +552,7 @@
         {
           "id": "style08_geographic_case_study_collage",
           "name": "geographic_case_study_collage",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__geographic_case_study_collage__04-13__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__geographic_case_study_collage__04-13__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__geographic_case_study_collage__04-13__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "04:13",
@@ -563,7 +563,7 @@
         {
           "id": "style08_photo_chart_overlay_data_viz",
           "name": "photo_chart_overlay_data_viz",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__photo_chart_overlay_data_viz__02-19__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__photo_chart_overlay_data_viz__02-19__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__photo_chart_overlay_data_viz__02-19__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "02:19",
@@ -574,7 +574,7 @@
         {
           "id": "style08_photo_collage_metaphor_centerpiece",
           "name": "photo_collage_metaphor_centerpiece",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__photo_collage_metaphor_centerpiece__00-44__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__photo_collage_metaphor_centerpiece__00-44__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__photo_collage_metaphor_centerpiece__00-44__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "00:44",
@@ -585,7 +585,7 @@
         {
           "id": "style08_political_figure_action_scene",
           "name": "political_figure_action_scene",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__political_figure_action_scene__02-16__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__political_figure_action_scene__02-16__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__political_figure_action_scene__02-16__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "02:16",
@@ -596,7 +596,7 @@
         {
           "id": "style08_poverty_case_study_collage",
           "name": "poverty_case_study_collage",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__poverty_case_study_collage__04-16__taxcuts.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_08/style_08_ted_photo_collage__poverty_case_study_collage__04-16__taxcuts.jpg",
           "image_filename": "style_08_ted_photo_collage__poverty_case_study_collage__04-16__taxcuts.jpg",
           "source_video": "taxcuts",
           "timestamp": "04:16",
@@ -617,7 +617,7 @@
         {
           "id": "style09_host_at_home_set_medium",
           "name": "host_at_home_set_medium",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/01_host_at_home_set_medium_tired_14_30.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/01_host_at_home_set_medium_tired_14_30.jpg",
           "image_filename": "01_host_at_home_set_medium_tired_14_30.jpg",
           "source_video": "tired",
           "timestamp": "14:30",
@@ -628,7 +628,7 @@
         {
           "id": "style09_host_close_up_dialog",
           "name": "host_close_up_dialog",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/02_host_close_up_dialog_sudan_01_00.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/02_host_close_up_dialog_sudan_01_00.jpg",
           "image_filename": "02_host_close_up_dialog_sudan_01_00.jpg",
           "source_video": "sudan",
           "timestamp": "01:00",
@@ -639,7 +639,7 @@
         {
           "id": "style09_animated_geographic_map_actor_icons",
           "name": "animated_geographic_map_actor_icons",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/03_animated_geographic_map_actor_icons_sudan_04_12.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/03_animated_geographic_map_actor_icons_sudan_04_12.jpg",
           "image_filename": "03_animated_geographic_map_actor_icons_sudan_04_12.jpg",
           "source_video": "sudan",
           "timestamp": "04:12",
@@ -650,7 +650,7 @@
         {
           "id": "style09_money_flow_connection_map",
           "name": "money_flow_connection_map",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/04_money_flow_connection_map_china_27_46.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/04_money_flow_connection_map_china_27_46.jpg",
           "image_filename": "04_money_flow_connection_map_china_27_46.jpg",
           "source_video": "china",
           "timestamp": "27:46",
@@ -661,7 +661,7 @@
         {
           "id": "style09_zoom_remote_expert_interview",
           "name": "zoom_remote_expert_interview",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/05_zoom_remote_expert_interview_china_01_52.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/05_zoom_remote_expert_interview_china_01_52.jpg",
           "image_filename": "05_zoom_remote_expert_interview_china_01_52.jpg",
           "source_video": "china",
           "timestamp": "01:52",
@@ -672,7 +672,7 @@
         {
           "id": "style09_mixed_media_collage_illustration",
           "name": "mixed_media_collage_illustration",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/06_mixed_media_collage_illustration_china_06_20.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/06_mixed_media_collage_illustration_china_06_20.jpg",
           "image_filename": "06_mixed_media_collage_illustration_china_06_20.jpg",
           "source_video": "china",
           "timestamp": "06:20",
@@ -683,7 +683,7 @@
         {
           "id": "style09_vintage_oil_painting_parallax_world",
           "name": "vintage_oil_painting_parallax_world",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/07_vintage_oil_painting_parallax_world_tired_02_13.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_09/07_vintage_oil_painting_parallax_world_tired_02_13.jpg",
           "image_filename": "07_vintage_oil_painting_parallax_world_tired_02_13.jpg",
           "source_video": "tired",
           "timestamp": "02:13",
@@ -705,7 +705,7 @@
         {
           "id": "style10_host_close_up_dialog_podcast_desk",
           "name": "host_close_up_dialog_podcast_desk",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/01_host_close_up_dialog_podcast_desk_jdvance_02_17.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/01_host_close_up_dialog_podcast_desk_jdvance_02_17.jpg",
           "image_filename": "01_host_close_up_dialog_podcast_desk_jdvance_02_17.jpg",
           "source_video": "jdvance",
           "timestamp": "02:17",
@@ -716,7 +716,7 @@
         {
           "id": "style10_bold_typography_title_card",
           "name": "bold_typography_title_card",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/02_bold_typography_title_card_mythology_11_13.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/02_bold_typography_title_card_mythology_11_13.jpg",
           "image_filename": "02_bold_typography_title_card_mythology_11_13.jpg",
           "source_video": "mythology",
           "timestamp": "11:13",
@@ -727,7 +727,7 @@
         {
           "id": "style10_vintage_crt_tv_framed_archival",
           "name": "vintage_crt_tv_framed_archival",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/03_vintage_crt_tv_framed_archival_mythology_03_40.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/03_vintage_crt_tv_framed_archival_mythology_03_40.jpg",
           "image_filename": "03_vintage_crt_tv_framed_archival_mythology_03_40.jpg",
           "source_video": "mythology",
           "timestamp": "03:40",
@@ -738,7 +738,7 @@
         {
           "id": "style10_annotated_document_red_highlight",
           "name": "annotated_document_red_highlight",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/04_annotated_document_red_highlight_jdvance_06_44.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/04_annotated_document_red_highlight_jdvance_06_44.jpg",
           "image_filename": "04_annotated_document_red_highlight_jdvance_06_44.jpg",
           "source_video": "jdvance",
           "timestamp": "06:44",
@@ -749,7 +749,7 @@
         {
           "id": "style10_news_clip_chyron",
           "name": "news_clip_chyron",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/05_news_clip_chyron_usatwar_05_15.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/05_news_clip_chyron_usatwar_05_15.jpg",
           "image_filename": "05_news_clip_chyron_usatwar_05_15.jpg",
           "source_video": "usatwar",
           "timestamp": "05:15",
@@ -760,7 +760,7 @@
         {
           "id": "style10_geographic_map_country_labels",
           "name": "geographic_map_country_labels",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/06_geographic_map_country_labels_usatwar_04_14.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/06_geographic_map_country_labels_usatwar_04_14.jpg",
           "image_filename": "06_geographic_map_country_labels_usatwar_04_14.jpg",
           "source_video": "usatwar",
           "timestamp": "04:14",
@@ -771,7 +771,7 @@
         {
           "id": "style10_host_studio_anchor_desk_branded",
           "name": "host_studio_anchor_desk_branded",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/07_host_studio_anchor_desk_branded_mythology_05_12.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/07_host_studio_anchor_desk_branded_mythology_05_12.jpg",
           "image_filename": "07_host_studio_anchor_desk_branded_mythology_05_12.jpg",
           "source_video": "mythology",
           "timestamp": "05:12",
@@ -782,7 +782,7 @@
         {
           "id": "style10_data_chart_overlay",
           "name": "data_chart_overlay",
-          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/08_data_chart_overlay_usatwar_03_20.jpg",
+          "url": "https://raw.githubusercontent.com/chelinhstudio/chelinh-gold-examples/main/gold_frames/style_10/08_data_chart_overlay_usatwar_03_20.jpg",
           "image_filename": "08_data_chart_overlay_usatwar_03_20.jpg",
           "source_video": "usatwar",
           "timestamp": "03:20",
