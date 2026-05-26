@@ -1,0 +1,797 @@
+{
+  "version": "2.0-v13",
+  "updated": "2026-05-27",
+  "description": "Gold examples manifest for chelinh-studio-v2.jsx — parsed from Style_Thinking_Patterns_v13.md. Maps 61 patterns across 10 styles to reference image URLs for --sref + ready-to-use prompts with --no negatives.",
+  "source_doc": "Style_Thinking_Patterns_v13.docx",
+  "repo": "https://github.com/CHANGE_ME/chelinh-gold-examples",
+  "url_pattern": "https://raw.githubusercontent.com/CHANGE_ME/chelinh-gold-examples/main/gold_frames/{style_folder}/{filename}",
+  "prompt_formula": {
+    "structure": "[Medium/Format] + [Subject/Action] + [Positioning/Negative Space] + [Environment] + [Lighting] + [Color Palette] + [Texture] + [--no negatives]",
+    "parts": [
+      "1. Medium/Format — render type (Cinematic 3D render, 2D cartoon illustration, etc.)",
+      "2. Subject/Action — character + concrete action",
+      "3. Positioning/Negative Space — frame position + UI overlay space",
+      "4. Environment — surrounding setting",
+      "5. Lighting — light type/quality",
+      "6. Color Palette — with HEX when needed",
+      "7. Texture — surface material",
+      "8. --no Negative Prompts — explicit exclusions"
+    ]
+  },
+  "styles": {
+    "style_01_ai3d_historical": {
+      "name": "AI 3D Render Historical",
+      "exemplar_channel": "Yarn Hub (AI-narrated historical YouTube)",
+      "abstractionLevel": "mixed",
+      "folder": "style_01",
+      "ai_render_principle": "Mannequin không mặt + bối cảnh hyper-detailed. Chia 2 grading: COOL desaturated (war/spy/outdoor) vs WARM tungsten (interior/document). Luôn chừa chỗ cho location card/subtitle overlay.",
+      "patterns_count": 7,
+      "gold_examples": [
+        {
+          "id": "style01_mannequin",
+          "name": "mannequin",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/mannequin_preview.jpg",
+          "image_filename": "mannequin_preview.jpg",
+          "source_video": "Wooden Leg",
+          "timestamp": "01:15",
+          "description": "Mannequin face character (smooth blank egg-head) + period uniform + cinematic environment",
+          "prompt": "Cinematic 3D render, mannequin character with smooth blank featureless egg-shape head wearing period-accurate 1940s civilian coat, walking away, leaving bottom space empty for subtitles, foggy European village street, motivated dramatic single-source lighting, desaturated cool blue-grey palette, volumetric atmospheric haze, subtle film grain --no human face, eyes, mouth, flat 2D, neon",
+          "negative_prompt": "human face, eyes, mouth, flat 2D, neon"
+        },
+        {
+          "id": "style01_archival_reveal",
+          "name": "archival_reveal",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/archival_reveal_preview.jpg",
+          "image_filename": "archival_reveal_preview.jpg",
+          "source_video": "Wooden Leg",
+          "timestamp": "00:35",
+          "description": "Cross-dissolve từ mannequin sang B&W archival photo thật của nhân vật lịch sử",
+          "prompt": "Archival 1940s B&W photography, portrait of a female WWII spy, centered composition, historical military uniform, natural studio lighting, warm sepia tint overlay, heavy film grain, authentic historical scratch texture --no modern clothing, 3D render, color",
+          "negative_prompt": "modern clothing, 3D render, color"
+        },
+        {
+          "id": "style01_document",
+          "name": "document",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/document_preview.jpg",
+          "image_filename": "document_preview.jpg",
+          "source_video": "Wooden Leg",
+          "timestamp": "06:15",
+          "description": "Document close-up với AI-mangled gibberish text + tungsten amber lighting",
+          "prompt": "Cinematic macro 3D render, white gloved hands holding an old vintage ID card with AI-mangled gibberish text and red wax seal, leaving frame corners empty, resting on a dark wooden desk, warm tungsten amber lighting, rich brown and cream palette, vignette edges, paper texture --no real human hands, modern UI, clear readable English text",
+          "negative_prompt": "real human hands, modern UI, clear readable English text"
+        },
+        {
+          "id": "style01_locationcard",
+          "name": "locationcard",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/locationcard_preview.jpg",
+          "image_filename": "locationcard_preview.jpg",
+          "source_video": "Alvin York",
+          "timestamp": "02:11",
+          "description": "Aerial drone + giant bold YELLOW CAPS place name + small white date line",
+          "prompt": "Cinematic aerial drone shot, dense misty forest with tall pine trees, leaving large central negative space for giant typography overlay, wide landscape, moody overcast lighting, cool desaturated slate grey and dark green palette, heavy volumetric fog --no characters, flat vectors, bright sunlight",
+          "negative_prompt": "characters, flat vectors, bright sunlight"
+        },
+        {
+          "id": "style01_blueprint",
+          "name": "blueprint",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/blueprint_preview.jpg",
+          "image_filename": "blueprint_preview.jpg",
+          "source_video": "Alvin York",
+          "timestamp": "05:00",
+          "description": "Technical 3D tactical terrain map sepia warm (NOT dark teal grid — Word doc was idealized)",
+          "prompt": "Technical 3D engineering diagram, a vintage radio transmission coil rendered in 3D floating in center, leaving wide empty spaces around for dashed line text callouts, flat conceptual environment, flat lighting, monochromatic dark teal (#1E3A4A) palette, blueprint grid lines texture --no photorealistic background, warm colors, human figures",
+          "negative_prompt": "photorealistic background, warm colors, human figures"
+        },
+        {
+          "id": "style01_date_stamp_pill",
+          "name": "date_stamp_pill",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/date_stamp_pill_preview.jpg",
+          "image_filename": "date_stamp_pill_preview.jpg",
+          "source_video": "Berlin Balloon",
+          "timestamp": "05:15",
+          "description": "Small dark pill chip bottom-right + white sans-serif date — chronology marker",
+          "prompt": "Cinematic 3D render, extreme wide shot of a snowy trench, leaving bottom right corner completely dark and empty for UI pill overlay, battlefield environment, overcast dramatic lighting, cool winter blue palette, film grain --no text, no bright corners",
+          "negative_prompt": "text, no bright corners"
+        },
+        {
+          "id": "style01_engineering_diagram",
+          "name": "engineering_diagram",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_01/engineering_diagram_preview.jpg",
+          "image_filename": "engineering_diagram_preview.jpg",
+          "source_video": "Berlin Balloon",
+          "timestamp": "15:40",
+          "description": "Blueprint mode: dark teal grid BG + 3D rendered device + dashed callout CAPS labels",
+          "prompt": "Technical 3D engineering diagram, a vintage radio transmission coil rendered in 3D floating in center, leaving wide empty spaces around for dashed line text callouts, flat conceptual environment, flat lighting, monochromatic dark teal (#1E3A4A) palette, blueprint grid lines texture --no photorealistic background, warm colors, human figures",
+          "negative_prompt": "photorealistic background, warm colors, human figures"
+        }
+      ]
+    },
+    "style_02_cinematic_realism": {
+      "name": "Cinematic Realism",
+      "exemplar_channel": "James Jani",
+      "abstractionLevel": "realistic",
+      "folder": "style_02",
+      "ai_render_principle": "Letterbox 2.35:1 liên tục, macro shot đồ vật THẬT, shallow DoF, sepia/teal grading. Không illustration phẳng. Camera move thay cut.",
+      "patterns_count": 5,
+      "gold_examples": [
+        {
+          "id": "style02_letterbox_macro_stat",
+          "name": "letterbox_macro_stat",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/letterbox_macro_stat.jpg",
+          "image_filename": "letterbox_macro_stat.jpg",
+          "source_video": "Rat Race",
+          "timestamp": "00:40",
+          "description": "Macro $1 bill engraving sepia warm + dark red Trajan serif '78%' + small caps subtitle",
+          "prompt": "Cinematic macro photography, extreme close-up of a 100 US dollar bill focusing on the engraved texture, shallow depth of field, leaving left side blurred and empty for bold red typography overlay, dark isolated background, single-source dramatic lighting, sepia-warm gold palette, heavy film grain, 2.35:1 aspect ratio aesthetic --no modern digital charts, flat graphics, full room visible",
+          "negative_prompt": "modern digital charts, flat graphics, full room visible"
+        },
+        {
+          "id": "style02_document_annotation",
+          "name": "document_annotation",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/document_annotation.jpg",
+          "image_filename": "document_annotation.jpg",
+          "source_video": "Rat Race",
+          "timestamp": "00:52",
+          "description": "Article zoom + yellow highlighter + red hand-drawn oval + italic citation",
+          "prompt": "Cinematic macro photography, a printed financial newsletter paper on a dark wooden desk, slightly blurred edges with shallow DoF, leaving room for digital yellow highlights, dark environment, side-angled moody lighting, cool teal and stark white paper palette, natural paper grain --no digital pure white background, human faces",
+          "negative_prompt": "digital pure white background, human faces"
+        },
+        {
+          "id": "style02_definition_card",
+          "name": "definition_card",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/definition_card.jpg",
+          "image_filename": "definition_card.jpg",
+          "source_video": "Rat Race",
+          "timestamp": "08:54",
+          "description": "Trajan distressed CAPS + yellow highlighter underline + pocket-watch illustration mask",
+          "prompt": "Minimalist texture background, highly detailed vintage cream textured paper with a subtle vertical torn edge revealing pure black darkness on the right half, flat surface, dim atmospheric lighting, cream and deep black palette, raw paper fiber texture --no text, objects, modern ui",
+          "negative_prompt": "text, objects, modern ui"
+        },
+        {
+          "id": "style02_host_moody",
+          "name": "host_moody",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/host_moody.jpg",
+          "image_filename": "host_moody.jpg",
+          "source_video": "Rat Race",
+          "timestamp": "11:19",
+          "description": "Dark home office + orange ring lamp single source + T-Rex skull prop + dark T-shirt",
+          "prompt": "Cinematic portrait photography, medium close-up of a male host in a dark t-shirt sitting in a dark home office, looking serious, pure black background, dramatic single-source side lighting with a subtle orange ring lamp accent, moody dark aesthetic, fine film grain, 2.35:1 aspect ratio feel --no bright daylight, clean white studio, cheerful expression",
+          "negative_prompt": "bright daylight, clean white studio, cheerful expression"
+        },
+        {
+          "id": "style02_crt_archival",
+          "name": "crt_archival",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_02/crt_archival.jpg",
+          "image_filename": "crt_archival.jpg",
+          "source_video": "Megachurches",
+          "timestamp": "15:15",
+          "description": "B&W vintage period film framed 4:3 inside 2.35:1 letterbox + film aging + sepia",
+          "prompt": "Live-action cinematic shot, a physical retro CRT television sitting on a dark wooden table with a blurred vase of flowers in the background, screen is glowing white leaving space for footage composite, dark room environment, practical lighting from the TV screen, moody teal shadows, VHS scanline subtle texture on the glass --no flat digital borders, modern monitors",
+          "negative_prompt": "flat digital borders, modern monitors"
+        }
+      ],
+      "host_consistency": "--cref REQUIRED (host face)"
+    },
+    "style_03_editorial_minimal_lemmino": {
+      "name": "Editorial Minimal (LEMMiNO)",
+      "exemplar_channel": "LEMMiNO",
+      "abstractionLevel": "mixed",
+      "folder": "style_03",
+      "ai_render_principle": "Bảng màu rất hạn chế (đen/xám/trắng + ĐIỂM NHẤN ĐỎ). 3 lớp abstraction: wireframe → diorama → B&W photo. Negative space cực lớn cho monospace text/labels.",
+      "patterns_count": 5,
+      "gold_examples": [
+        {
+          "id": "style03_scale_model_diorama",
+          "name": "scale_model_diorama",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/scale_model_diorama.jpg",
+          "image_filename": "scale_model_diorama.jpg",
+          "source_video": "JFK",
+          "timestamp": "00:15",
+          "description": "White/grey miniature buildings on lit white surface + investigator's table aesthetic",
+          "prompt": "3D scale model diorama, miniature monochromatic grey buildings of a 1970s airport sitting on a warm wooden investigator desk, empty black void background, dramatic spotlight on the diorama, dark cool navy and greyscale palette, subtle tilt-shift lens effect --no realistic humans, vibrant colors, flat vector art",
+          "negative_prompt": "realistic humans, vibrant colors, flat vector art"
+        },
+        {
+          "id": "style03_torn_paper_dossier",
+          "name": "torn_paper_dossier",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/torn_paper_dossier.jpg",
+          "image_filename": "torn_paper_dossier.jpg",
+          "source_video": "JFK",
+          "timestamp": "02:10",
+          "description": "Side-by-side torn-paper portrait cards + white glow + red handshake icon centered",
+          "prompt": "Dark documentary aesthetic, a vintage B&W suspect mugshot photograph framed inside organic white torn-paper edges, resting on a pure black (#0A0A0A) background, leaving right side empty for monospace text overlay, soft ambient glow, greyscale with bright white paper accents, subtle film grain --no clean rectangular frames, modern UI, bright colored photos",
+          "negative_prompt": "clean rectangular frames, modern UI, bright colored photos"
+        },
+        {
+          "id": "style03_red_silhouette",
+          "name": "red_silhouette",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/red_silhouette.jpg",
+          "image_filename": "red_silhouette.jpg",
+          "source_video": "JFK",
+          "timestamp": "15:15",
+          "description": "Top-down scale model cutaway + TWO red filled silhouette figures (faceless)",
+          "prompt": "Editorial minimal 3D wireframe scene, a pure RED (#FF0000) filled silhouette of a man standing in a white-outline wireframe room, pure black (#0A0A0A) empty background leaving massive negative space for testimony text, minimal lighting, stark black/white/red restricted palette, slight chromatic aberration edge glow --no detailed faces, textures, full color gradients",
+          "negative_prompt": "detailed faces, textures, full color gradients"
+        },
+        {
+          "id": "style03_monospace_testimony",
+          "name": "monospace_testimony",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/monospace_testimony.jpg",
+          "image_filename": "monospace_testimony.jpg",
+          "source_video": "JFK",
+          "timestamp": "24:15",
+          "description": "Torn-paper portrait card + monospace pull quote with curly quotes + B&W mugshot",
+          "prompt": "Editorial minimal 3D wireframe scene, a pure RED (#FF0000) filled silhouette of a man standing in a white-outline wireframe room, pure black (#0A0A0A) empty background leaving massive negative space for testimony text, minimal lighting, stark black/white/red restricted palette, slight chromatic aberration edge glow --no detailed faces, textures, full color gradients",
+          "negative_prompt": "detailed faces, textures, full color gradients"
+        },
+        {
+          "id": "style03_timeline_ruler",
+          "name": "timeline_ruler",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_03/timeline_ruler.jpg",
+          "image_filename": "timeline_ruler.jpg",
+          "source_video": "Ripper",
+          "timestamp": "37:30",
+          "description": "Horizontal red timeline ruler + red dots + sightings/dates labels (Ripper-specific)",
+          "prompt": "Victorian-period cartography top-down map, extruded 3D grey buildings from a 2D dark map, leaving space for red X markers and labels, dark void environment, minimal flat lighting, dark blue-grey desaturated palette, subtle film grain --no modern Google maps, bright colors, realistic trees",
+          "negative_prompt": "modern Google maps, bright colors, realistic trees"
+        }
+      ]
+    },
+    "style_04_vox_explainer": {
+      "name": "Vox Explainer",
+      "exemplar_channel": "Vox",
+      "abstractionLevel": "stylized",
+      "folder": "style_04",
+      "ai_render_principle": "Illustration PHẲNG monochromatic, KHÔNG 3D. Background grid notebook paper hoặc cream nhạt. Yellow highlighter là điểm nhấn duy nhất. Chừa massive negative space cho serif typography.",
+      "patterns_count": 6,
+      "gold_examples": [
+        {
+          "id": "style04_article_citation_headline",
+          "name": "article_citation_headline",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__article_citation_headline__13-50__michigan.jpg",
+          "image_filename": "style_04_vox_explainer__article_citation_headline__13-50__michigan.jpg",
+          "source_video": "michigan",
+          "timestamp": "13:50",
+          "description": "AP Supreme Court headline + body excerpt + ALL CAPS source brand stamp",
+          "prompt": "Stylized journalism background, flat off-white canvas with subtle grid notebook paper texture in the corners, massive empty central negative space for bold serif text overlays, flat lighting, clean off-white and faded gray palette, clean vector-like smoothness --no 3D, shadows, photorealism, gradients",
+          "negative_prompt": "3D, shadows, photorealism, gradients"
+        },
+        {
+          "id": "style04_chapter_divider_numbered",
+          "name": "chapter_divider_numbered",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__chapter_divider_numbered__04-53__michigan.jpg",
+          "image_filename": "style_04_vox_explainer__chapter_divider_numbered__04-53__michigan.jpg",
+          "source_video": "michigan",
+          "timestamp": "04:53",
+          "description": "Numbered chapter marker on cream paper + 'THE BELLWETHER' serif title",
+          "prompt": "Stylized journalism background, flat off-white canvas with subtle grid notebook paper texture in the corners, massive empty central negative space for bold serif text overlays, flat lighting, clean off-white and faded gray palette, clean vector-like smoothness --no 3D, shadows, photorealism, gradients",
+          "negative_prompt": "3D, shadows, photorealism, gradients"
+        },
+        {
+          "id": "style04_chart_animated_reveal",
+          "name": "chart_animated_reveal",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__chart_animated_reveal__02-56__house.jpg",
+          "image_filename": "style_04_vox_explainer__chart_animated_reveal__02-56__house.jpg",
+          "source_video": "house",
+          "timestamp": "02:56",
+          "description": "Line chart on white BG + animated reveal + multi-color series",
+          "prompt": "Editorial infographic background, a clean isometric grid of hundreds of small empty squares on a flat background, leaving room for yellow highlighter overlays, flat environment, no shading, off-white and faded grey palette, crisp vector edges --no 3D pop-out, text, organic shapes",
+          "negative_prompt": "3D pop-out, text, organic shapes"
+        },
+        {
+          "id": "style04_data_viz_grid_cells",
+          "name": "data_viz_grid_cells",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__data_viz_grid_cells__01-46__michigan.jpg",
+          "image_filename": "style_04_vox_explainer__data_viz_grid_cells__01-46__michigan.jpg",
+          "source_video": "michigan",
+          "timestamp": "01:46",
+          "description": "Grid cells colored by year/county + 'Michigan election winners' header",
+          "prompt": "Editorial infographic background, a clean isometric grid of hundreds of small empty squares on a flat background, leaving room for yellow highlighter overlays, flat environment, no shading, off-white and faded grey palette, crisp vector edges --no 3D pop-out, text, organic shapes",
+          "negative_prompt": "3D pop-out, text, organic shapes"
+        },
+        {
+          "id": "style04_map_highlighter",
+          "name": "map_highlighter",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__map_highlighter__03-20__michigan.jpg",
+          "image_filename": "style_04_vox_explainer__map_highlighter__03-20__michigan.jpg",
+          "source_video": "michigan",
+          "timestamp": "03:20",
+          "description": "US state outline + Michigan highlighter yellow + small flag icons",
+          "prompt": "Flat monochromatic digital cartography, a loose collage map of the US 50 states detached slightly, leaving top left corner empty, flat environment, flat lighting, pure navy blue outlines with light blue fill, subtle print paper grain --no realistic terrain, 3D globes, gradients",
+          "negative_prompt": "realistic terrain, 3D globes, gradients"
+        },
+        {
+          "id": "style04_mono_flat_illustration",
+          "name": "mono_flat_illustration",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_04/style_04_vox_explainer__mono_flat_illustration__00-27__house.jpg",
+          "image_filename": "style_04_vox_explainer__mono_flat_illustration__00-27__house.jpg",
+          "source_video": "house",
+          "timestamp": "00:27",
+          "description": "Single color flat house illustration on cream BG + $ minimal accent",
+          "prompt": "Monochromatic flat 2D illustration, a simplified stylized icon of a house sitting on a stack of money bills, centered on canvas leaving room for citation brackets, flat void environment, zero shadows, single color dark green and off-white palette, clean crisp vector shapes --no 3D, outlines, realistic textures, photorealism",
+          "negative_prompt": "3D, outlines, realistic textures, photorealism"
+        }
+      ]
+    },
+    "style_05_ted_cartoon_outline": {
+      "name": "TED-Ed Cartoon Outline",
+      "exemplar_channel": "TED-Ed (flat saturated outline)",
+      "abstractionLevel": "stylized",
+      "folder": "style_05",
+      "ai_render_principle": "Hoạt hình PHẲNG outline mực đen dày, màu solid tươi sáng. Big-head body simplified geometric. Background đổi solid saturated MỖI scene (pink/peach/mint).",
+      "patterns_count": 6,
+      "gold_examples": [
+        {
+          "id": "style05_character_pedestal_comparison",
+          "name": "character_pedestal_comparison",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__character_pedestal_comparison__01-11__inequality.jpg",
+          "image_filename": "style_05_ted_cartoon_outline__character_pedestal_comparison__01-11__inequality.jpg",
+          "source_video": "inequality",
+          "timestamp": "01:11",
+          "description": "3 outline characters on stacked pedestals (heights différents) + flat color BG",
+          "prompt": "2D cartoon illustration, two big-head characters with simplified geometric bodies standing on separate mountain peaks made of gold coins, wide shot, flat solid peach (#F5DCC1) background, flat unshaded lighting, highly saturated bright flat colors (pink, yellow, green) with thick black ink outlines, clean solid fill texture --no gradients, watercolor, photorealism, 3D depth, realistic human proportions",
+          "negative_prompt": "gradients, watercolor, photorealism, 3D depth, realistic human proportions"
+        },
+        {
+          "id": "style05_country_flag_map_card_grid",
+          "name": "country_flag_map_card_grid",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__country_flag_map_card_grid__04-04__inequality.jpg",
+          "image_filename": "style_05_ted_cartoon_outline__country_flag_map_card_grid__04-04__inequality.jpg",
+          "source_video": "inequality",
+          "timestamp": "04:04",
+          "description": "4-card grid: France flag + map + symbol icons + caps label",
+          "prompt": "2D stylized illustration, three light blue polaroid frames laid out side-by-side containing simplified country map outlines, sitting on a notebook ruled-paper background with binder ring holes on the left, flat lighting, mint green and bright red flat palette, thick black outlines --no text numbers (leave empty for code), 3D shadows, realistic paper",
+          "negative_prompt": "text numbers (leave empty for code), 3D shadows, realistic paper"
+        },
+        {
+          "id": "style05_notebook_paper_chart",
+          "name": "notebook_paper_chart",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__notebook_paper_chart__00-52__inequality.jpg",
+          "image_filename": "style_05_ted_cartoon_outline__notebook_paper_chart__00-52__inequality.jpg",
+          "source_video": "inequality",
+          "timestamp": "00:52",
+          "description": "Notebook paper texture + hand-drawn pyramid chart + outline characters",
+          "prompt": "2D stylized illustration, three light blue polaroid frames laid out side-by-side containing simplified country map outlines, sitting on a notebook ruled-paper background with binder ring holes on the left, flat lighting, mint green and bright red flat palette, thick black outlines --no text numbers (leave empty for code), 3D shadows, realistic paper",
+          "negative_prompt": "text numbers (leave empty for code), 3D shadows, realistic paper"
+        },
+        {
+          "id": "style05_outline_flat_character_scene",
+          "name": "outline_flat_character_scene",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__outline_flat_character_scene__01-47__inequality.jpg",
+          "image_filename": "style_05_ted_cartoon_outline__outline_flat_character_scene__01-47__inequality.jpg",
+          "source_video": "inequality",
+          "timestamp": "01:47",
+          "description": "Multi-character outline scene + flat color fills + simple composition",
+          "prompt": "2D cartoon illustration, two big-head characters with simplified geometric bodies standing on separate mountain peaks made of gold coins, wide shot, flat solid peach (#F5DCC1) background, flat unshaded lighting, highly saturated bright flat colors (pink, yellow, green) with thick black ink outlines, clean solid fill texture --no gradients, watercolor, photorealism, 3D depth, realistic human proportions",
+          "negative_prompt": "gradients, watercolor, photorealism, 3D depth, realistic human proportions"
+        },
+        {
+          "id": "style05_oversized_symbol_stage",
+          "name": "oversized_symbol_stage",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__oversized_symbol_stage__02-43__inequality.jpg",
+          "image_filename": "style_05_ted_cartoon_outline__oversized_symbol_stage__02-43__inequality.jpg",
+          "source_video": "inequality",
+          "timestamp": "02:43",
+          "description": "Giant red star center stage + small outline characters around (scale contrast)",
+          "prompt": "2D cartoon illustration, a massive stylized red star symbol with tiny big-head characters climbing on it, isometric perspective, flat solid mint green (#C8E8D8) background, flat lighting, vibrant solid block colors with consistent black ink outlines, vector crispness --no shading, realistic textures, thin sketchy lines",
+          "negative_prompt": "shading, realistic textures, thin sketchy lines"
+        },
+        {
+          "id": "style05_paired_pyramid_composition",
+          "name": "paired_pyramid_composition",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_05/style_05_ted_cartoon_outline__paired_pyramid_composition__00-21__inequality.jpg",
+          "image_filename": "style_05_ted_cartoon_outline__paired_pyramid_composition__00-21__inequality.jpg",
+          "source_video": "inequality",
+          "timestamp": "00:21",
+          "description": "Two stacked pyramids (gold + dark) on pink BG — comparison visual",
+          "prompt": "2D cartoon illustration, a massive stylized red star symbol with tiny big-head characters climbing on it, isometric perspective, flat solid mint green (#C8E8D8) background, flat lighting, vibrant solid block colors with consistent black ink outlines, vector crispness --no shading, realistic textures, thin sketchy lines",
+          "negative_prompt": "shading, realistic textures, thin sketchy lines"
+        }
+      ]
+    },
+    "style_06_ted_sketchy_limited": {
+      "name": "TED-Ed Sketchy Limited Palette",
+      "exemplar_channel": "TED-Ed (orange/black/cream)",
+      "abstractionLevel": "stylized",
+      "folder": "style_06",
+      "ai_render_principle": "Palette GIỚI HẠN GẮT: orange (#E89A6D) + đen + cream (#F5F0E5) — chỉ 3 màu. Nét chì có độ rung (wobble), khung viền đen bao quanh scene.",
+      "patterns_count": 4,
+      "gold_examples": [
+        {
+          "id": "style06_sketchy_close_up_metaphor_object",
+          "name": "sketchy_close_up_metaphor_object",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_close_up_metaphor_object__04-14__economy.jpg",
+          "image_filename": "style_06_ted_sketchy_limited__sketchy_close_up_metaphor_object__04-14__economy.jpg",
+          "source_video": "economy",
+          "timestamp": "04:14",
+          "description": "Tight close-up sketchy handshake + limited palette orange+black+cream",
+          "prompt": "Editorial sketchy illustration, a single character kneeling and sowing seeds in a loose sketched bushy landscape with small clouds, centered composition, solid cream (#F5F0E5) background, flat lighting, strict limited palette of orange (#E89A6D), black ink, and cream only, dry-brush wobble pencil linework texture --no vibrant rainbow colors, saturated fills, thick clean vector lines, 3D",
+          "negative_prompt": "vibrant rainbow colors, saturated fills, thick clean vector lines, 3D"
+        },
+        {
+          "id": "style06_sketchy_landscape_nature_accent",
+          "name": "sketchy_landscape_nature_accent",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_landscape_nature_accent__04-44__economy.jpg",
+          "image_filename": "style_06_ted_sketchy_limited__sketchy_landscape_nature_accent__04-44__economy.jpg",
+          "source_video": "economy",
+          "timestamp": "04:44",
+          "description": "Landscape scene + sketchy line art + 1 orange accent element",
+          "prompt": "Editorial sketchy illustration, a single character kneeling and sowing seeds in a loose sketched bushy landscape with small clouds, centered composition, solid cream (#F5F0E5) background, flat lighting, strict limited palette of orange (#E89A6D), black ink, and cream only, dry-brush wobble pencil linework texture --no vibrant rainbow colors, saturated fills, thick clean vector lines, 3D",
+          "negative_prompt": "vibrant rainbow colors, saturated fills, thick clean vector lines, 3D"
+        },
+        {
+          "id": "style06_sketchy_multi_character_workplace_scene",
+          "name": "sketchy_multi_character_workplace_scene",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_multi_character_workplace_scene__03-14__economy.jpg",
+          "image_filename": "style_06_ted_sketchy_limited__sketchy_multi_character_workplace_scene__03-14__economy.jpg",
+          "source_video": "economy",
+          "timestamp": "03:14",
+          "description": "Workplace scene + multiple sketch characters + cream BG",
+          "prompt": "Editorial sketchy minimal illustration, a scene inside a black-bordered 4:5 rectangle frame showing a sketchy meeting room table with two characters in orange skin, sitting on an outer solid grey (#D8D6D2) background, flat lighting, limited orange/black/grey palette, loose hand-drawn confident linework --no gradients, cut-out photos, big-head characters",
+          "negative_prompt": "gradients, cut-out photos, big-head characters"
+        },
+        {
+          "id": "style06_sketchy_object_as_chart_element",
+          "name": "sketchy_object_as_chart_element",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_06/style_06_ted_sketchy_limited__sketchy_object_as_chart_element__04-04__economy.jpg",
+          "image_filename": "style_06_ted_sketchy_limited__sketchy_object_as_chart_element__04-04__economy.jpg",
+          "source_video": "economy",
+          "timestamp": "04:04",
+          "description": "Building/object integrated as chart bar — physical metaphor for data",
+          "prompt": "Editorial sketchy minimal illustration, a scene inside a black-bordered 4:5 rectangle frame showing a sketchy meeting room table with two characters in orange skin, sitting on an outer solid grey (#D8D6D2) background, flat lighting, limited orange/black/grey palette, loose hand-drawn confident linework --no gradients, cut-out photos, big-head characters",
+          "negative_prompt": "gradients, cut-out photos, big-head characters"
+        }
+      ]
+    },
+    "style_07_ted_cartoony_watercolor": {
+      "name": "TED-Ed Cartoony Vector Watercolor",
+      "exemplar_channel": "TED-Ed (cartoony + watercolor)",
+      "abstractionLevel": "stylized",
+      "folder": "style_07",
+      "ai_render_principle": "Hai mode song song: (A) Nhân vật VECTOR chân siêu dài + đầu nhỏ trên solid saturated background; (B) Đồ vật lịch sử bôi WATERCOLOR trên giấy graph paper.",
+      "patterns_count": 6,
+      "gold_examples": [
+        {
+          "id": "style07_allegorical_object_economic_metaphor",
+          "name": "allegorical_object_economic_metaphor",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__allegorical_object_economic_metaphor__02-43__stock.jpg",
+          "image_filename": "style_07_ted_cartoony_watercolor__allegorical_object_economic_metaphor__02-43__stock.jpg",
+          "source_video": "stock",
+          "timestamp": "02:43",
+          "description": "PLY/DEAD scales as visual economic metaphor + watercolor texture",
+          "prompt": "Cartoony vector illustration, a businessman with exaggerated super long thin legs and a small angular head wearing a 2-color black and white suit, interacting with a giant red chart arrow, solid saturated mustard yellow (#E0AB30) background, flat lighting, flat solid colors with occasional red accent, clean vector finish --no watercolor here, realistic proportions, outlines, 3D",
+          "negative_prompt": "watercolor here, realistic proportions, outlines, 3D"
+        },
+        {
+          "id": "style07_character_riding_market_rise_arrow",
+          "name": "character_riding_market_rise_arrow",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__character_riding_market_rise_arrow__03-34__stock.jpg",
+          "image_filename": "style_07_ted_cartoony_watercolor__character_riding_market_rise_arrow__03-34__stock.jpg",
+          "source_video": "stock",
+          "timestamp": "03:34",
+          "description": "Character riding red rising arrow + bullish symbolism",
+          "prompt": "Cartoony vector illustration, a businessman with exaggerated super long thin legs and a small angular head wearing a 2-color black and white suit, interacting with a giant red chart arrow, solid saturated mustard yellow (#E0AB30) background, flat lighting, flat solid colors with occasional red accent, clean vector finish --no watercolor here, realistic proportions, outlines, 3D",
+          "negative_prompt": "watercolor here, realistic proportions, outlines, 3D"
+        },
+        {
+          "id": "style07_character_watercolor_scene",
+          "name": "character_watercolor_scene",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__character_watercolor_scene__02-04__stock.jpg",
+          "image_filename": "style_07_ted_cartoony_watercolor__character_watercolor_scene__02-04__stock.jpg",
+          "source_video": "stock",
+          "timestamp": "02:04",
+          "description": "Single character cartoony + watercolor BG wash + warm palette",
+          "prompt": "Historical watercolor illustration, a close-up of a 1745 VOC merchant coin surrounded by smaller coins, centered on a graph paper grid background, soft ambient lighting, sepia and pale peach watercolor wash palette, wet watercolor bleed texture on graph paper --no thick black ink outlines, flat solid vibrant backgrounds, photorealism",
+          "negative_prompt": "thick black ink outlines, flat solid vibrant backgrounds, photorealism"
+        },
+        {
+          "id": "style07_multi_character_historical_narrative_scene",
+          "name": "multi_character_historical_narrative_scene",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__multi_character_historical_narrative_scene__00-43__stock.jpg",
+          "image_filename": "style_07_ted_cartoony_watercolor__multi_character_historical_narrative_scene__00-43__stock.jpg",
+          "source_video": "stock",
+          "timestamp": "00:43",
+          "description": "Vintage cowboy/historical scene + period costumes + warm sepia",
+          "prompt": "Historical watercolor illustration, multiple period-costumed cowboy and historical figures arranged in narrative scene composition, centered on a graph paper grid background, soft ambient lighting, warm sepia and aged peach watercolor wash palette, wet watercolor bleed texture, hand-painted feel --no thick black ink outlines, flat solid vibrant backgrounds, modern clothing, photorealism",
+          "negative_prompt": "thick black ink outlines, flat solid vibrant backgrounds, modern clothing, photorealism"
+        },
+        {
+          "id": "style07_stock_ticker_grid_market_display",
+          "name": "stock_ticker_grid_market_display",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__stock_ticker_grid_market_display__01-54__stock.jpg",
+          "image_filename": "style_07_ted_cartoony_watercolor__stock_ticker_grid_market_display__01-54__stock.jpg",
+          "source_video": "stock",
+          "timestamp": "01:54",
+          "description": "Stock ticker grid: company logos + price + change% + sky blue BG",
+          "prompt": "Cartoony vector illustration, a clean 3x2 grid of stock ticker cards each showing simplified company logo + abstract price block + minimal change indicator, sky blue (#7EC8E3) solid background, flat lighting, flat solid colors with red/green accents only, clean vector finish, leaving numeric values empty for code overlay --no realistic stock charts, real company logos, 3D depth, watercolor",
+          "negative_prompt": "realistic stock charts, real company logos, 3D depth, watercolor"
+        },
+        {
+          "id": "style07_vintage_historical_artifact_scene",
+          "name": "vintage_historical_artifact_scene",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_07/style_07_ted_cartoony_watercolor__vintage_historical_artifact_scene__00-37__stock.jpg",
+          "image_filename": "style_07_ted_cartoony_watercolor__vintage_historical_artifact_scene__00-37__stock.jpg",
+          "source_video": "stock",
+          "timestamp": "00:37",
+          "description": "Vintage map + artifact + warm aged paper aesthetic",
+          "prompt": "Historical watercolor illustration, a close-up of a 1745 VOC merchant coin surrounded by smaller coins, centered on a graph paper grid background, soft ambient lighting, sepia and pale peach watercolor wash palette, wet watercolor bleed texture on graph paper --no thick black ink outlines, flat solid vibrant backgrounds, photorealism",
+          "negative_prompt": "thick black ink outlines, flat solid vibrant backgrounds, photorealism"
+        }
+      ]
+    },
+    "style_08_ted_photo_collage": {
+      "name": "TED-Ed Photo Collage Editorial",
+      "exemplar_channel": "TED-Ed (collage)",
+      "abstractionLevel": "stylized",
+      "folder": "style_08",
+      "ai_render_principle": "Editorial collage magazine — đầu THẬT ghép thân vector + giấy crumpled. Drop shadow nhẹ cho cutout. Màu infographic đậm (navy + magenta/teal accent).",
+      "patterns_count": 7,
+      "gold_examples": [
+        {
+          "id": "style08_anthropomorphic_government_metaphor",
+          "name": "anthropomorphic_government_metaphor",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__anthropomorphic_government_metaphor__02-11__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__anthropomorphic_government_metaphor__02-11__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "02:11",
+          "description": "White House/Capitol building with limbs — anthropomorphized government",
+          "prompt": "Editorial collage cut-out animation style, a photorealistic cut-out head of a CEO attached to an illustrated flat vector body suit sitting in an office chair, leaving negative space for ripped paper labels, solid navy blue (#1E3A6F) paper texture background, flat lighting with light drop shadows on the cutout, natural photo colors mixed with bold magenta/teal, crumpled paper grain --no fully realistic human bodies, fully 3D scenes, clean digital backgrounds",
+          "negative_prompt": "fully realistic human bodies, fully 3D scenes, clean digital backgrounds"
+        },
+        {
+          "id": "style08_concept_map_multi_label_assembly",
+          "name": "concept_map_multi_label_assembly",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__concept_map_multi_label_assembly__04-04__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__concept_map_multi_label_assembly__04-04__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "04:04",
+          "description": "Multi-label concept map + cut-out photos + connection lines",
+          "prompt": "Editorial magazine collage, physical cut-out props of scissors and stacks of real cash, laid out on a cream paper texture canvas leaving space for digital bar charts, top-down diagrammatic framing, flat lighting with slight physical drop shadows, natural green cash with off-white background, ripped masking tape edges --no 3D rendered money, clean minimal vectors",
+          "negative_prompt": "3D rendered money, clean minimal vectors"
+        },
+        {
+          "id": "style08_geographic_case_study_collage",
+          "name": "geographic_case_study_collage",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__geographic_case_study_collage__04-13__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__geographic_case_study_collage__04-13__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "04:13",
+          "description": "Country/region collage + palm trees + photo cutouts + label",
+          "prompt": "Editorial magazine collage, photorealistic cut-out palm trees and tropical houses against a solid tropical teal paper texture background, ripped paper edges around each cutout, leaving negative space for country label tape, flat lighting with subtle physical drop shadows, natural photo colors with bold infographic accent, crumpled paper grain --no fully realistic scenes, smooth digital photo composites, 3D",
+          "negative_prompt": "fully realistic scenes, smooth digital photo composites, 3D"
+        },
+        {
+          "id": "style08_photo_chart_overlay_data_viz",
+          "name": "photo_chart_overlay_data_viz",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__photo_chart_overlay_data_viz__02-19__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__photo_chart_overlay_data_viz__02-19__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "02:19",
+          "description": "Photo collage BG + colored bar chart overlay + dual data",
+          "prompt": "Editorial magazine collage, physical cut-out props of scissors and stacks of real cash, laid out on a cream paper texture canvas leaving space for digital bar charts, top-down diagrammatic framing, flat lighting with slight physical drop shadows, natural green cash with off-white background, ripped masking tape edges --no 3D rendered money, clean minimal vectors",
+          "negative_prompt": "3D rendered money, clean minimal vectors"
+        },
+        {
+          "id": "style08_photo_collage_metaphor_centerpiece",
+          "name": "photo_collage_metaphor_centerpiece",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__photo_collage_metaphor_centerpiece__00-44__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__photo_collage_metaphor_centerpiece__00-44__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "00:44",
+          "description": "Central metaphor object + supporting photo cutouts + paper texture",
+          "prompt": "Editorial collage centerpiece, a single large photorealistic cut-out metaphor object (gold honeycomb, stack of bills, or wheat bundle) centered on a crumpled cream paper background with small ripped supporting photo cutouts arranged around it, flat overhead lighting with subtle drop shadows, warm cream and golden palette with one bold infographic color accent, tactile paper texture --no smooth digital compositing, 3D, vector illustrations",
+          "negative_prompt": "smooth digital compositing, 3D, vector illustrations"
+        },
+        {
+          "id": "style08_political_figure_action_scene",
+          "name": "political_figure_action_scene",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__political_figure_action_scene__02-16__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__political_figure_action_scene__02-16__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "02:16",
+          "description": "Political figure photo + action scene + collage cutouts + crumpled paper",
+          "prompt": "Editorial collage cut-out animation style, a photorealistic cut-out head of a CEO attached to an illustrated flat vector body suit sitting in an office chair, leaving negative space for ripped paper labels, solid navy blue (#1E3A6F) paper texture background, flat lighting with light drop shadows on the cutout, natural photo colors mixed with bold magenta/teal, crumpled paper grain --no fully realistic human bodies, fully 3D scenes, clean digital backgrounds",
+          "negative_prompt": "fully realistic human bodies, fully 3D scenes, clean digital backgrounds"
+        },
+        {
+          "id": "style08_poverty_case_study_collage",
+          "name": "poverty_case_study_collage",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_08/style_08_ted_photo_collage__poverty_case_study_collage__04-16__taxcuts.jpg",
+          "image_filename": "style_08_ted_photo_collage__poverty_case_study_collage__04-16__taxcuts.jpg",
+          "source_video": "taxcuts",
+          "timestamp": "04:16",
+          "description": "Houses/poverty imagery collage + factual statistic overlay",
+          "prompt": "Editorial magazine collage, photorealistic cut-out houses and modest building photos against a faded grey paper texture background, ripped paper edges, leaving negative space for statistical bar overlay, flat lighting with slight drop shadows, muted natural photo colors with one stark red statistic accent, crumpled paper grain --no smooth digital, 3D rendering, glossy finish",
+          "negative_prompt": "smooth digital, 3D rendering, glossy finish"
+        }
+      ]
+    },
+    "style_09_host_journalist_harris": {
+      "name": "Host Journalist (Johnny Harris)",
+      "exemplar_channel": "Johnny Harris",
+      "abstractionLevel": "realistic",
+      "folder": "style_09",
+      "ai_render_principle": "Cinematic teal-orange Hollywood color. Documentary host in warm cluttered environments. Investigative network diagrams on dark teal basemaps. Vintage archival framed.",
+      "patterns_count": 7,
+      "gold_examples": [
+        {
+          "id": "style09_host_at_home_set_medium",
+          "name": "host_at_home_set_medium",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/01_host_at_home_set_medium_tired_14_30.jpg",
+          "image_filename": "01_host_at_home_set_medium_tired_14_30.jpg",
+          "source_video": "tired",
+          "timestamp": "14:30",
+          "description": "Home office set + bookshelf + soft warm light + medium-shot host",
+          "prompt": "Cinematic documentary photography, a cluttered warm home office with a leather sofa, vintage globe lamp, and bookshelves, slightly out of focus background leaving space for a host, dramatic warm tungsten lighting with cool teal shadows, teal-orange Hollywood color palette, 50mm shallow depth of field --no bright clean white studios, flat lighting",
+          "negative_prompt": "bright clean white studios, flat lighting"
+        },
+        {
+          "id": "style09_host_close_up_dialog",
+          "name": "host_close_up_dialog",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/02_host_close_up_dialog_sudan_01_00.jpg",
+          "image_filename": "02_host_close_up_dialog_sudan_01_00.jpg",
+          "source_video": "sudan",
+          "timestamp": "01:00",
+          "description": "Close-up host face + studio bokeh BG + cinematic shallow DoF",
+          "prompt": "Cinematic documentary photography, a cluttered warm home office with a leather sofa, vintage globe lamp, and bookshelves, slightly out of focus background leaving space for a host, dramatic warm tungsten lighting with cool teal shadows, teal-orange Hollywood color palette, 50mm shallow depth of field --no bright clean white studios, flat lighting",
+          "negative_prompt": "bright clean white studios, flat lighting"
+        },
+        {
+          "id": "style09_animated_geographic_map_actor_icons",
+          "name": "animated_geographic_map_actor_icons",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/03_animated_geographic_map_actor_icons_sudan_04_12.jpg",
+          "image_filename": "03_animated_geographic_map_actor_icons_sudan_04_12.jpg",
+          "source_video": "sudan",
+          "timestamp": "04:12",
+          "description": "Geographic map + named actor icons (JANJAWEED MILITIAS) + connections",
+          "prompt": "Investigative network diagram aesthetic, a dark nighttime world map base leaving space for octagonal photo badges and dashed arrows, flat UI environment, soft glow lighting, dark teal (#0A1A24) and noir palette with subtle glowing outlines, digital OpenStreetMap subtle basemap texture --no bright colorful Google maps, 3D terrain, cartoon elements",
+          "negative_prompt": "bright colorful Google maps, 3D terrain, cartoon elements"
+        },
+        {
+          "id": "style09_money_flow_connection_map",
+          "name": "money_flow_connection_map",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/04_money_flow_connection_map_china_27_46.jpg",
+          "image_filename": "04_money_flow_connection_map_china_27_46.jpg",
+          "source_video": "china",
+          "timestamp": "27:46",
+          "description": "Money flow lines connecting countries/entities + flag pins + arrows",
+          "prompt": "Investigative network diagram aesthetic, a dark nighttime world map base leaving space for octagonal photo badges and dashed arrows, flat UI environment, soft glow lighting, dark teal (#0A1A24) and noir palette with subtle glowing outlines, digital OpenStreetMap subtle basemap texture --no bright colorful Google maps, 3D terrain, cartoon elements",
+          "negative_prompt": "bright colorful Google maps, 3D terrain, cartoon elements"
+        },
+        {
+          "id": "style09_zoom_remote_expert_interview",
+          "name": "zoom_remote_expert_interview",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/05_zoom_remote_expert_interview_china_01_52.jpg",
+          "image_filename": "05_zoom_remote_expert_interview_china_01_52.jpg",
+          "source_video": "china",
+          "timestamp": "01:52",
+          "description": "Remote expert via Zoom + name caption + bookshelf BG",
+          "prompt": "Documentary Zoom-call style portrait, a remote expert in a casual home setting with bookshelves behind them, slightly tilted webcam angle, leaving lower third empty for name caption + title, soft natural daylight, warm tungsten ambient with cool desktop monitor glow accent, muted documentary color palette, subtle digital compression aesthetic --no professional studio setup, dramatic cinematic lighting, polished broadcast look",
+          "negative_prompt": "professional studio setup, dramatic cinematic lighting, polished broadcast look"
+        },
+        {
+          "id": "style09_mixed_media_collage_illustration",
+          "name": "mixed_media_collage_illustration",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/06_mixed_media_collage_illustration_china_06_20.jpg",
+          "image_filename": "06_mixed_media_collage_illustration_china_06_20.jpg",
+          "source_video": "china",
+          "timestamp": "06:20",
+          "description": "Mixed media: photo + illustration + handdrawn elements layered",
+          "prompt": "Vintage 19th-century anatomical etching, a highly detailed line drawing of a human heart with the left ventricle highlighted in red, framed in a dark border, soft archival lighting, warm sepia and brown tone palette, old textured parchment paper with scan lines --no flat modern vectors, vivid colors, 3D renders",
+          "negative_prompt": "flat modern vectors, vivid colors, 3D renders"
+        },
+        {
+          "id": "style09_vintage_oil_painting_parallax_world",
+          "name": "vintage_oil_painting_parallax_world",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_09/07_vintage_oil_painting_parallax_world_tired_02_13.jpg",
+          "image_filename": "07_vintage_oil_painting_parallax_world_tired_02_13.jpg",
+          "source_video": "tired",
+          "timestamp": "02:13",
+          "description": "Vintage oil painting world map + parallax depth effect — Tired-specific",
+          "prompt": "Vintage 19th-century anatomical etching, a highly detailed line drawing of a human heart with the left ventricle highlighted in red, framed in a dark border, soft archival lighting, warm sepia and brown tone palette, old textured parchment paper with scan lines --no flat modern vectors, vivid colors, 3D renders",
+          "negative_prompt": "flat modern vectors, vivid colors, 3D renders"
+        }
+      ],
+      "host_consistency": "--cref REQUIRED (host face)"
+    },
+    "style_10_host_explainer_second_thought": {
+      "name": "Host Explainer (Second Thought / JT Chapman)",
+      "exemplar_channel": "Second Thought",
+      "abstractionLevel": "stylized",
+      "folder": "style_10",
+      "ai_render_principle": "Punk-zine + agitprop aesthetic. CRT TV THẬT làm khung archival. Giấy nhám trắng tinh cho typography. Biểu đồ giả lập màn hình CRT (cyan/red + chromatic aberration).",
+      "patterns_count": 8,
+      "gold_examples": [
+        {
+          "id": "style10_host_close_up_dialog_podcast_desk",
+          "name": "host_close_up_dialog_podcast_desk",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/01_host_close_up_dialog_podcast_desk_jdvance_02_17.jpg",
+          "image_filename": "01_host_close_up_dialog_podcast_desk_jdvance_02_17.jpg",
+          "source_video": "jdvance",
+          "timestamp": "02:17",
+          "description": "Host JT cream sweater + RØDE NT-USB mic + warm bookshelf home podcast set",
+          "prompt": "Documentary podcast portrait photography, medium close-up of a male host in a cream sweater seated at a home podcast desk with a visible RØDE NT-USB microphone front and center, warm bookshelf with vintage decor and tan leather couch in soft-focus background, mid-gesture pose, warm tungsten practical lighting, casual home-set aesthetic, shallow depth of field --no broadcast studio backdrop, harsh dramatic key lighting, bright commercial set",
+          "negative_prompt": "broadcast studio backdrop, harsh dramatic key lighting, bright commercial set"
+        },
+        {
+          "id": "style10_bold_typography_title_card",
+          "name": "bold_typography_title_card",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/02_bold_typography_title_card_mythology_11_13.jpg",
+          "image_filename": "02_bold_typography_title_card_mythology_11_13.jpg",
+          "source_video": "mythology",
+          "timestamp": "11:13",
+          "description": "Paper-grain BG + bold sans-serif essay-style asymmetric CAPS title",
+          "prompt": "Zine punk aesthetic background, a completely blank white heavily textured printed paper canvas, leaving 100% space for bold kinetic typography, flat lighting, pure stark white and black palette, heavy paper noise and slight photocopier grain --no gradients, 3D elements, soft colors, clean digital pixels",
+          "negative_prompt": "gradients, 3D elements, soft colors, clean digital pixels"
+        },
+        {
+          "id": "style10_vintage_crt_tv_framed_archival",
+          "name": "vintage_crt_tv_framed_archival",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/03_vintage_crt_tv_framed_archival_mythology_03_40.jpg",
+          "image_filename": "03_vintage_crt_tv_framed_archival_mythology_03_40.jpg",
+          "source_video": "mythology",
+          "timestamp": "03:40",
+          "description": "Full Broksonic CRT TV-VCR unit + B&W archival inside CRT screen",
+          "prompt": "Live-action macro photography, a real retro plastic CRT TV bezel sitting in a dark room, facing straight at the camera, screen is an empty black void for composite, practical low-key lighting, dark grey plastic and pinkish-purple room backlight accent, physical plastic texture --no vector TV frames, flat borders, cartoon shapes",
+          "negative_prompt": "vector TV frames, flat borders, cartoon shapes"
+        },
+        {
+          "id": "style10_annotated_document_red_highlight",
+          "name": "annotated_document_red_highlight",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/04_annotated_document_red_highlight_jdvance_06_44.jpg",
+          "image_filename": "04_annotated_document_red_highlight_jdvance_06_44.jpg",
+          "source_video": "jdvance",
+          "timestamp": "06:44",
+          "description": "Academic paper + 2 red marker circles + red arrow + yellow highlights",
+          "prompt": "Zine punk aesthetic background, a completely blank white heavily textured printed paper canvas, leaving 100% space for bold kinetic typography, flat lighting, pure stark white and black palette, heavy paper noise and slight photocopier grain --no gradients, 3D elements, soft colors, clean digital pixels",
+          "negative_prompt": "gradients, 3D elements, soft colors, clean digital pixels"
+        },
+        {
+          "id": "style10_news_clip_chyron",
+          "name": "news_clip_chyron",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/05_news_clip_chyron_usatwar_05_15.jpg",
+          "image_filename": "05_news_clip_chyron_usatwar_05_15.jpg",
+          "source_video": "usatwar",
+          "timestamp": "05:15",
+          "description": "Cable news chyron + headline + body excerpt + pink highlight",
+          "prompt": "Cable news broadcast composite, a blurred debate-stage or press-room backdrop with leaving space for network logo + headline chyron + lower-third byline + body excerpt text overlay, flat broadcast lighting, generic news studio teal/blue palette with pink/red highlight bar accent zone, subtle broadcast compression texture --no clean minimalist UI, vector graphics, isolated white background",
+          "negative_prompt": "clean minimalist UI, vector graphics, isolated white background"
+        },
+        {
+          "id": "style10_geographic_map_country_labels",
+          "name": "geographic_map_country_labels",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/06_geographic_map_country_labels_usatwar_04_14.jpg",
+          "image_filename": "06_geographic_map_country_labels_usatwar_04_14.jpg",
+          "source_video": "usatwar",
+          "timestamp": "04:14",
+          "description": "Tilted satellite basemap + red country overlay + explosion-bloom markers",
+          "prompt": "Macro photography, extreme close-up of a real physical printed Rand McNally road map resting on a desk, a yellow physical push pin stuck into the paper casting a shadow, shallow depth of field focusing on the pin, practical overhead lighting, faded printed CMYK paper colors, tangible paper fiber texture --no digital flat maps, glowing neon, clean vectors",
+          "negative_prompt": "digital flat maps, glowing neon, clean vectors"
+        },
+        {
+          "id": "style10_host_studio_anchor_desk_branded",
+          "name": "host_studio_anchor_desk_branded",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/07_host_studio_anchor_desk_branded_mythology_05_12.jpg",
+          "image_filename": "07_host_studio_anchor_desk_branded_mythology_05_12.jpg",
+          "source_video": "mythology",
+          "timestamp": "05:12",
+          "description": "Branded broadcast studio + hexagonal copper fixtures + purple BG glow",
+          "prompt": "Branded broadcast studio portrait photography, host in white linen shirt seated at an anchor desk with papers visible (no microphone), hexagonal copper fixtures lining the wall, plants flanking the set, purple BG glow accent, polished broadcast lighting setup, modern news-studio aesthetic, medium depth of field --no casual home podcast setup, dim warm tungsten only, visible microphone, cluttered bookshelves",
+          "negative_prompt": "casual home podcast setup, dim warm tungsten only, visible microphone, cluttered bookshelves"
+        },
+        {
+          "id": "style10_data_chart_overlay",
+          "name": "data_chart_overlay",
+          "url": "TODO_REPLACE_AFTER_GITHUB_UPLOAD/gold_frames/style_10/08_data_chart_overlay_usatwar_03_20.jpg",
+          "image_filename": "08_data_chart_overlay_usatwar_03_20.jpg",
+          "source_video": "usatwar",
+          "timestamp": "03:20",
+          "description": "Multi-series chart + chromatic aberration retro-tech treatment + dual axes",
+          "prompt": "Retro CRT data terminal aesthetic, a blank dark screen with horizontal scan lines and RGB chromatic aberration, leaving room for cyan and red data bars, flat digital environment, glowing screen lighting, pure black background with cyan/red accents, pixelated monitor texture --no clean modern minimal charts, white backgrounds, 3D pie charts",
+          "negative_prompt": "clean modern minimal charts, white backgrounds, 3D pie charts"
+        }
+      ],
+      "host_consistency": "--cref REQUIRED (host face)"
+    }
+  }
+}
